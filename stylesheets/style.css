@@ -1,3 +1,35 @@
 table.default tr:not(:nth-child(1)):not(:nth-child(2)) {
     display: none;
 }
+
+a{
+    font-family: 'Acme', sans-serif;
+}
+
+h4{
+    font-family: 'Marcellus', serif;
+}
+
+h6{
+    font-family: 'Marcellus', serif;
+}
+
+h5{
+    font-family: 'Acme', serif;
+}
+
+th, option, li{
+    font-family: 'Karla', sans-serif;
+}
+
+.card{
+    background-color: #faeee7;
+}
+
+.list-group-item{
+    background-color: #faeee7;
+}
+
+#cardno{
+    background-color: white;
+}

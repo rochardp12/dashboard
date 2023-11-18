@@ -19,6 +19,7 @@
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
             rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Karla&family=Marcellus&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheets/style.css">
     </head>
     <body>
@@ -47,6 +48,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#datos">Datos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mapa">Mapa de monitoreo</a>
                             </li>
 
                         </ul>
@@ -151,7 +155,7 @@
                 <div class="row row-cols-1 row-cols-md-1 g-3 mt-2">
                     <div class="col">
 
-                        <div class="card">
+                        <div class="card" id="cardno">
                             <div class="card-body">
                                 <h5 class="card-title">Pronóstico del tiempo
                                     para 5 días con datos cada 3 horas por
@@ -181,13 +185,13 @@
 <!-- Datos -->
         <!-- Tabla de mareas -->
         <section class="p-4 text-right bg-light">
-            <h4 class="mb-3">
+            <h4 id="mapa" class="mb-3">
                 Mapa de monitoreo de amenaza de inundaciones bajo pronóstico de precipitaciones
             </h4>
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-1 g-3 mt-2">
                     <div class="col">
-                        <div class="card">
+                        <div class="card" id="cardno">
                             <div id="monitoreo" class="card-body">
                                 
                             </div>
