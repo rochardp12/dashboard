@@ -37,3 +37,7 @@ th, option, li{
 .prueba{
     display: flex;
 }
+
+#trno{
+    background-color: #faeee7;
+}
